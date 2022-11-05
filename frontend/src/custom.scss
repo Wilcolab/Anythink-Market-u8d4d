@@ -37,6 +37,10 @@ body {
   width: 40px;
 }
 
+.banner-img {
+  max-width: 100%;
+}
+
 .user-img {
   width: 100px;
   height: 100px;
@@ -57,5 +61,7 @@ body {
 }
 
 .user-info {
-  min-width: 800px;
+  @media(min-width: 992px) {
+    min-width: 800px;
+  }
 }
