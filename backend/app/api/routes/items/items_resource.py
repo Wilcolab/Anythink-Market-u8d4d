@@ -39,6 +39,7 @@ async def list_items(
         seller=items_filters.seller,
         favorited=items_filters.favorited,
         limit=items_filters.limit,
+        title=items_filters.title,
         offset=items_filters.offset,
         requested_user=user,
     )
